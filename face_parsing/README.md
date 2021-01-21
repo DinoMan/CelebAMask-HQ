@@ -11,6 +11,8 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * Move the mask folder, the image folder, and `CelebA-HQ-to-CelebA-mapping.txt` ( remove 1st line in advance ) under `./Data_preprocessing`
 * Run `python g_mask.py`
 * Run  `python g_partition.py` to split train set and test set.
+To color the images just run:
+* python g_color.py (--symmetric)
 ## Training
 * Run `bash run.sh #GPU_num`
 ## Well-trained model
